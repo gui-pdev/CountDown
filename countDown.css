@@ -1,0 +1,114 @@
+body {
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: black ;
+    
+}
+
+.img{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 0;
+}
+#trofeu{
+width: 330px;
+
+}
+
+.title {
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0px 17px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.relogio {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(163, 195, 212, 0.3) ; */
+    /* margin: 0px 320px; */
+    /* border: solid 1px red; */
+}
+
+.time {
+    color: aliceblue;
+    text-align: center;
+    padding: 0px 15px;
+    /* border:dotted  red; */
+    margin: 0px 22px;
+    width: 140px;
+    border-radius: 13px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: rgb(163, 195, 212, 0.2);
+    white-space: pre;
+    z-index: 1;
+}
+
+.flag {
+    width: 42px;
+    margin: 0 3px;
+}
+
+footer {
+    color: aliceblue;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+    justify-content: flex-start;
+    display: flex;
+    width: 90%;
+}
+
+@media( max-width :720px){
+    .relogio{
+       display: grid;
+       gap: 15px;
+       padding: 50px 0;
+       
+    }
+    .title{
+        font-size: 22px;
+    }
+    .time{
+        background-color: #111111c0;
+    }
+    .img{
+       padding: 0;
+        position: absolute;
+       top: 25%;
+       z-index: 0;
+    }
+    #trofeu{
+        width: 290px;
+    }
+    
+}
+
+@media( max-width :440px){
+   
+    .title{
+        font-size: 18px;
+        padding: 40px 0px 17px 0px;
+    }
+    .time{
+        font-size: 16px;
+        width: 100px;
+    }
+    footer{
+        font-size: 13px;
+        
+    }
+    #trofeu{
+        width: 250px;
+    }
+}
