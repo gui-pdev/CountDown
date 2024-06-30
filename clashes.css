@@ -1,0 +1,19 @@
+#arrow {
+    width: 770px;
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    border-color: aqua;
+    height: 80px;
+}
+
+.fa-lg {
+    font-size: 45px;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none !important;
+}

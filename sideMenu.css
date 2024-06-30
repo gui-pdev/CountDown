@@ -1,0 +1,31 @@
+
+#bars{
+    width: 80px;
+    padding-top: 11px;
+    /* border: solid 1px red; */
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-bars{
+    color: antiquewhite;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-bars:hover{
+    font-size: 40.5px;
+    opacity: 0.8;
+    color: aliceblue;
+}
+
+#sideMenu{
+    background: gray;
+    
+    /* position: relative; */
+    border: solid 1px red;
+    
+}
