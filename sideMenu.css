@@ -27,9 +27,9 @@
     color: antiquewhite;
     font-size: 35px;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.58s ease-in-out;
     z-index: 3;
-    margin-left: 250px;
+    margin-left: 420px;
 }
 
 .fa-times:hover{
@@ -39,11 +39,11 @@
 }
 
 #sideMenu{
-    background: #0000;
+    background: black;
     border-radius: 3px;
    margin-top: 9px;
     visibility: hidden;
-    width: 195px;
+    width: 275px;
     height: 80%;
     position: fixed;
     border: solid 2px rgb(46, 46, 46);
@@ -53,15 +53,34 @@
     z-index: 2;
     padding-left: 5px;
     padding-top: 4px;
+    display:flex;
+    flex-direction: column;
+    gap: 90px;
+   
 
     a{
         color: aliceblue;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 22px;
+        text-align: center;
+    }
+    a:hover{
+        font-size: 23px;
+        opacity: 0.8;
     }
 
     div{
-        margin-top: 50px;
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        align-self:center;
+
     }
+
+    
    
+}
+
+#stadium{
+    object-fit: contain;
 }

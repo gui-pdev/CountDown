@@ -3,6 +3,10 @@ var horas = document.getElementById("horas");
 var minutos = document.getElementById("minutos");
 var segundos = document.getElementById("segundos");
 var menu = document.getElementById("sideMenu");
+const audio = document.getElementById('background-music');
+
+
+audio.volume = 0.04; // Define o volume para 4%
 
 
 function tempo() {
