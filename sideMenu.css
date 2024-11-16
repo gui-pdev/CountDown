@@ -84,3 +84,25 @@
 #stadium{
     object-fit: contain;
 }
+
+@media(max-height:840px) {
+    #sideMenu{
+        gap: 45px;
+
+        img{
+            width: 220px;
+        }
+    }
+}
+@media(max-height:670px) {
+    #sideMenu{
+        gap: 5px;
+
+        img{
+            width: 190px;
+        }
+        div{
+            margin-top: 62px;
+        }
+    }
+}
