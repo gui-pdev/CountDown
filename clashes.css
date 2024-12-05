@@ -1,3 +1,6 @@
+body{
+    background: black;
+}
 #arrow {
     width: 770px;
     display: flex;
@@ -9,6 +12,7 @@
 
 .fa-lg {
     font-size: 45px;
+    color: rgba(240, 240, 245, 0.911)
 }
 
 
