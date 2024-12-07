@@ -5,12 +5,12 @@ body {
 
 
 #arrow {
-    width: 770px;
+    
     display: flex;
     align-items: center;
-    border: solid 1px;
-    border-color: aqua;
-    height: 80px;
+    padding: 15px 5px;
+
+    
 
 }
 
@@ -138,8 +138,9 @@ body {
         text-align: center; /* Centraliza o texto das informações */
     }
 
-    #arrow{
-        visibility: hidden;
-    }
+    /* #arrow{
+        
+        display: none;
+    } */
 
 }
