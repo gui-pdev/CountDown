@@ -5,18 +5,18 @@ body {
 
 
 #arrow {
-    
+
     display: flex;
     align-items: center;
     padding: 15px 5px;
 
-    
+
 
 }
 
 #stadiums {
     background-color: rgba(240, 240, 245, 0.911);
-    width: 95%;
+    width: 85vw;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ body {
     margin: 0 auto;
     /* Centraliza no eixo horizontal */
     padding: 0 20px;
-    border: 1px solid blue;
+
 
 }
 
@@ -103,39 +103,63 @@ body {
 @media (max-width: 768px) {
     #content {
         display: flex;
-        flex-direction: column; /* Organiza os elementos em coluna */
-        align-items: center; /* Centraliza os elementos horizontalmente */
-        justify-content: center; /* Centraliza os elementos verticalmente */
-        padding: 10px; /* Adiciona espaço interno */
-        text-align: center; /* Centraliza o texto */
-        
-    }
-    #title {
-        font-size: 24px; /* Ajusta o tamanho do título para telas menores */
-        margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+        flex-direction: column;
+        /* Organiza os elementos em coluna */
+        align-items: center;
+        /* Centraliza os elementos horizontalmente */
+        justify-content: center;
+        /* Centraliza os elementos verticalmente */
+        padding: 10px;
+        /* Adiciona espaço interno */
+        text-align: center;
+        /* Centraliza o texto */
+        /* width: 93%; */
+        /* margin: 0; */
+
     }
 
-   
+    #title {
+        font-size: 24px;
+        /* Ajusta o tamanho do título para telas menores */
+        margin-bottom: 20px;
+        /* Adiciona espaço abaixo do título */
+    }
+
+    #stadium {
+        /* padding: 0;
+        margin: auto; */
+    }
+
+
     .stadium-container {
-        margin-bottom: 30px; /* Espaço entre cada estádio */
-        width: 100%; /* Garante que os elementos ocupem toda a largura disponível */
+        margin-bottom: 30px;
+        /* Espaço entre cada estádio */
+        width: 100%;
+        /* Garante que os elementos ocupem toda a largura disponível */
     }
 
     .items {
         display: flex;
-        flex-direction: column; /* Empilha a imagem e as informações */
-        align-items: center; /* Centraliza os itens */
-        gap: 15px; /* Espaçamento entre a imagem e as informações */
+        flex-direction: column;
+        /* Empilha a imagem e as informações */
+        align-items: center;
+        /* Centraliza os itens */
+        gap: 15px;
+        /* Espaçamento entre a imagem e as informações */
     }
 
     .stadium-image {
-        width: 90%; /* Ajusta o tamanho da imagem para caber no layout */
-        height: auto; /* Mantém a proporção da imagem */
-        max-width: 400px; /* Limita o tamanho máximo da imagem */
+        width: 90%;
+        /* Ajusta o tamanho da imagem para caber no layout */
+        height: auto;
+        /* Mantém a proporção da imagem */
+        max-width: 400px;
+        /* Limita o tamanho máximo da imagem */
     }
 
     .info {
-        text-align: center; /* Centraliza o texto das informações */
+        text-align: center;
+        /* Centraliza o texto das informações */
     }
 
     /* #arrow{
@@ -143,4 +167,27 @@ body {
         display: none;
     } */
 
+}
+
+@media (max-width:440px) {
+    .stadium-image {
+        min-width: 200px;
+
+    }
+
+    #content {
+        /* padding: 0; */
+
+    }
+}
+
+@media (max-width:365px) {
+
+    #content {
+        padding: 0;
+    }
+
+    #stadiums{
+        padding: 0 10px;
+    }
 }
