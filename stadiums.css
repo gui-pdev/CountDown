@@ -50,11 +50,18 @@ body {
 
 .stadium-image {
     max-width: 40%;
-    height: auto;
+    height:min-content;
     border-radius: 10px;
     object-fit: cover;
     display: block;
     margin: 0 auto;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Define a transição suave */
+    cursor:crosshair;
+}
+
+.stadium-image:hover{
+    transform: scale(1.08); /* Amplia a imagem em 10% */
+  filter: brightness(1.1); /* Torna a imagem um pouco mais brilhante ao passar o mouse */
 }
 
 .stadium-container {
@@ -76,14 +83,21 @@ body {
     color: #423f3f;
 }
 
+@media (max-width: 1400px) {
+   
+
+    .info {
+        font-size: 1rem;
+    }
+}
+
+
 @media (max-width: 999px) {
     .items {
         flex-wrap: wrap;
     }
 
-    .info {
-        font-size: 1rem;
-    }
+   
 }
 
 @media (max-width: 768px) {
