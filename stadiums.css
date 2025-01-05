@@ -1,6 +1,7 @@
 body {
     background: black;
     margin: 0;
+    font-family: "Rubik", sans-serif;
 }
 
 #arrow {
@@ -30,6 +31,7 @@ body {
     font-weight: bold;
     font-size: 35px;
     color: white;
+    font-family: "Rubik", sans-serif;
 }
 
 .fa-lg {
